@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 500px;
+    margin: 50px auto;
+    backdrop-filter: blur(50px);
+    box-shadow: 0 1px 5px #141212;
+    padding: 50px
+}
+
+.login-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.login-container input, .login-container button, p, a, h1{
+    flex-basis: 100%;
+    padding: 5px 5px;
+    margin: 2px 0px;
+}
+
+.login-container button{
+    background-color:rgb(255, 226, 200);
+    border: unset;
+    font-weight: bold;
+    color: rgb(29, 29, 31);
+    border-radius: 5px;
+    
+}
+
+.login-container input {
+    border-color: rgb(211, 166, 126);
+    border-radius: 5px;
+    border: unset;
+}
+
+.login-container button:hover, .login-container input:hover {
+    background-color: rgb(245, 234, 225);
+    color: rgb(111, 107, 122);
+    
+}
+
+.login-container button:active {
+    background-color: rgb(121, 113, 107);
+    color: rgb(43, 42, 49);
+}
+
+body {
+    background-image: url(https://t4.ftcdn.net/jpg/06/38/25/67/360_F_638256742_04ubYNCKgMmbpEHK5f0g0k561RmUYuXW.jpg);
+    background-size: 100% 100%;
+}
+
+a {
+    
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(3, 3, 202);
+}
+
+.login {
+    padding: 10px 10px;
+}
